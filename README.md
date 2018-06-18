@@ -1,4 +1,4 @@
-# wp-optimize-guide
+# WP Optimize Guide
 How to optimize your Wordpress site
 
 ## Eliminate render-blocking JavaScript and CSS in above-the-fold content
