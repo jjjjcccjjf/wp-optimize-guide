@@ -30,3 +30,8 @@ After analyzing your site, you probably want to have a higher page speed score. 
     1. Tick `Set cache control header`
     1. Tick `Set W3 Total Cache header`
     1. Click `Save Settings & Purge Caches`
+    
+#### Extra notes
+* External javascript cannot be cached (such as `analytics.js` and google tag manager's js)
+* It is recommended not to minify JS. It might break your site. Oh, don't believe me? Try it.
+* Page score updates are not instantaneous, so you better wait for a bit before you analyze again.
