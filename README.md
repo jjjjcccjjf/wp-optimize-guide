@@ -18,6 +18,7 @@ After analyzing your site, you probably want to have a higher page speed score. 
 1. Scroll to the bottom of the pagespeed insights page
 1. Find `Download optimized image, JavaScript, and CSS resources for this page.` and download assets
 1. Reupload assets to their corresponding folders
+* (Optional) Download [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/) and then replace your assets one by one
 
 ### Leverage browser caching
 1. Install and activate [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/)
