@@ -32,6 +32,18 @@ After analyzing your site, you probably want to have a higher page speed score. 
     1. Tick `Set W3 Total Cache header`
     1. Click `Save Settings & Purge Caches`
     
+### Removing and retaining noindex/follow tag  
+Usually the SEO team wants some categories or taxonomies disabled from appearing on Google search results. Here's how you do it.  This section requires Yoast SEO Plugin to be followed.
+1. On the `WP-admin sidebar` hover over `SEO` and then click `Search Appearance`
+1. Click `Taxonomies` tab. Set `Show Categories in search results?` to `No`
+1. Cluck `Archives` tab. Set `Author archives` to `Disabled`
+
+For individual pages: 
+1. Go to the selected page
+1. Scroll down until you see the Yoast SEO section
+1. Click the Gear icon (advanced)
+1. Manipulate search engine visibility via the `Should search engines follow links on this Page?` radio buttons.
+    
 #### Extra notes
 * External javascript cannot be cached (such as `analytics.js` and google tag manager's js)
 * It is recommended not to minify JS. It might break your site. Oh, don't believe me? Try it.
